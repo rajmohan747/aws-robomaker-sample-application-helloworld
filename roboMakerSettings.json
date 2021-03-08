@@ -44,7 +44,7 @@
         "robotApp": {
           "name": "RoboMakerHelloWorldRobot<capitalised name of ROS distribution, e.g. Kinetic>",
           "sourceBundleFile": "./HelloWorld/robot_ws/bundle/output.tar",
-          "s3Bucket": "awsrobomakerhelloworld-161406434552-bundlesbucket-1dtj5uco1xblc",
+          "s3Bucket": "helloworlddemobucket",
           "architecture": "X86_64",
           "launchConfig": {
             "packageName": "hello_world_robot",
@@ -62,7 +62,7 @@
           "name": "RoboMakerHelloWorldSimulation<capitalised name of ROS distribution, e.g. Kinetic>",
           "sourceBundleFile": "./HelloWorld/simulation_ws/bundle/output.tar",
           "architecture": "X86_64",
-          "s3Bucket": "awsrobomakerhelloworld-161406434552-bundlesbucket-1dtj5uco1xblc",
+          "s3Bucket": "helloworlddemobucket",
           "launchConfig": {
             "packageName": "hello_world_simulation",
             "launchFile": "empty_world.launch",
