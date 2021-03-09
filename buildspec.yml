@@ -1,7 +1,7 @@
 version: 0.2 
 env:
   variables:
-    S3_BUCKET: finalhelloworldbucket
+    S3_BUCKET: finaldemobucket
     APP_NAME: cicd
     CACHE_DIR: cache
     ROBOT_WS: robot_ws
